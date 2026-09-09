@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.remesthesia.template;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;

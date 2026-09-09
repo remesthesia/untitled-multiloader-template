@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.remesthesia.template;
 
 import net.fabricmc.api.ModInitializer;
 

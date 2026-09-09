@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package com.remesthesia.template;
 
-import com.example.examplemod.platform.Services;
+import com.remesthesia.template.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
