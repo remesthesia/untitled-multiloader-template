@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "com.remesthesia.template.TemplateFabric"
+        ],
+        "client": [
+            "com.remesthesia.template.client.TemplateFabricClient"
         ]
     },
     "mixins": [
