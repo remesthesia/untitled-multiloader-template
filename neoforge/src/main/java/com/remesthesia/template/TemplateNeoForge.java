@@ -3,7 +3,7 @@ package com.remesthesia.template;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
-@Mod(Constants.MOD_ID)
+@Mod(Template.MOD_ID)
 public class TemplateNeoForge {
 
     public TemplateNeoForge(IEventBus eventBus) {
@@ -13,7 +13,7 @@ public class TemplateNeoForge {
         // project.
 
         // Use NeoForge to bootstrap the Common mod.
-        Constants.LOG.info("Hello NeoForge world!");
+        Template.LOG.info("Hello NeoForge world!");
         Template.init();
 
     }
