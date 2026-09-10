@@ -3,6 +3,10 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+dependencies {
+    implementation("com.github.remesthesia.untitled:untitled-neoforge-${untitled_version}:${untitled_version}")
+}
+
 neoForge {
     version = neoforge_version
 
