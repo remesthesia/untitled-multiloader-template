@@ -1,6 +1,6 @@
 package com.remesthesia.template.platform;
 
-import com.remesthesia.template.Constants;
+import com.remesthesia.template.Template;
 import com.remesthesia.template.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
@@ -24,7 +24,7 @@ public class Services {
         final T loadedService = ServiceLoader.load(clazz, Services.class.getClassLoader())
                 .findFirst()
                 .orElseThrow(() -> new NullPointerException("Failed to load service for " + clazz.getName()));
-        Constants.LOG.debug("Loaded {} for service {}", loadedService, clazz);
+        Template.LOG.debug("Loaded {} for service {}", loadedService, clazz);
         return loadedService;
     }
 }
