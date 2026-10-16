@@ -37,7 +37,7 @@ jar {
 processResources {
     var expandProps = [
             'version'                      : version,
-            'group'                        : project.group, //Else we target the task's group.
+            'group'                        : project.group,
             'minecraft_version'            : minecraft_version,
             'minecraft_version_range'      : minecraft_version_range,
             'fabric_version'               : fabric_version,
@@ -45,11 +45,11 @@ processResources {
             'mod_name'                     : mod_name,
             'mod_author'                   : mod_author,
             'mod_id'                       : mod_id,
-            'license'                      : license,
-            'description'                  : project.description,
+            'mod_license'                  : mod_license,
+            'mod_description'              : mod_description,
+            'mod_credits'                  : mod_credits,
             'neoforge_version'             : neoforge_version,
             'neoforge_loader_version_range': neoforge_loader_version_range,
-            'credits'                      : credits,
             'java_version'                 : java_version
     ]
 
