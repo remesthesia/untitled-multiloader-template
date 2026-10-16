@@ -1,6 +1,6 @@
-package com.example.examplemod.mixin;
+package com.remesthesia.template.mixin;
 
-import com.example.examplemod.Constants;
+import com.remesthesia.template.Constants;
 import net.minecraft.SharedConstants;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,7 +14,7 @@ public class MixinTitleScreen {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
 
-        Constants.LOG.info("This line is printed by an example mod mixin from NeoForge!");
+        Constants.LOG.info("This line is printed by an example mod mixin from Fabric!");
         Constants.LOG.info("MC Version: {}", SharedConstants.getCurrentVersion().name());
     }
 }

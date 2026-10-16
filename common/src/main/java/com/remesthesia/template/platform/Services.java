@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.remesthesia.template.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.remesthesia.template.Constants;
+import com.remesthesia.template.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
