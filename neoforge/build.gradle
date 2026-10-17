@@ -39,6 +39,16 @@ neoForge {
     }
 }
 
+dependencies {
+    implementation("com.remesthesia:untitled-neoforge:${untitled_version}")
+}
+
+repositories {
+    flatDir {
+        dirs("../mods")
+    }
+}
+
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)

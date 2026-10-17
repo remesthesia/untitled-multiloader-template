@@ -17,6 +17,14 @@ dependencies {
     // https://github.com/FabricMC/fabric-loader/blob/master/gradle.properties#L12
     compileOnly('net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7')
     compileOnly(annotationProcessor('io.github.llamalad7:mixinextras-common:0.5.5'))
+
+    compileOnly("com.remesthesia:untitled-common:${untitled_version}")
+}
+
+repositories {
+    flatDir {
+        dirs("../mods")
+    }
 }
 
 configurations {
